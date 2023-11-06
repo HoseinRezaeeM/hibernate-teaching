@@ -7,23 +7,26 @@ import java.util.Date;
 @Entity
 @Table(name = "USER_DETAILS")
 public class UserDetail {
-    @Id @GeneratedValue(strategy = GenerationType.AUTO)
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private int userId;
-  //  @Basic ->static final object for all column
+    //  @Basic ->static final object for all column
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private String username;
     @Temporal(TemporalType.TIME)
     private Date joinedData;
-    private String address;
-  //  @Transient ->ignore
- //   @Lob -> big object
+    //private String address;
+    //  @Transient ->ignore
+    //   @Lob -> big object
     private String description;
+    @Embedded
+    private Address address;
 
-    public String getAddress() {
+    public Address getAddress() {
         return address;
     }
 
-    public void setAddress(String address) {
+    public void setAddress(Address address) {
         this.address = address;
     }
 
