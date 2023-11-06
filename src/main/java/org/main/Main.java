@@ -35,6 +35,15 @@ public class Main {
         session.beginTransaction();
         session.save(userDetail);
         session.getTransaction().commit();
+        session.close();
+
+        userDetail=null;
+         session = sessionFactory.openSession();
+        session.beginTransaction();
+        userDetail =(UserDetail) session.get(UserDetail.class,1);
+        System.out.println("User Name Detail is :"+userDetail.getUsername());
+
+
 
 
 
