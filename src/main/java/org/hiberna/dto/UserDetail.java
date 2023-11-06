@@ -1,18 +1,16 @@
 package org.hiberna.dto;
 
-
-
 import javax.persistence.*;
-
 import java.util.Date;
 
 
 @Entity
 @Table(name = "USER_DETAILS")
 public class UserDetail {
-    @Id
+    @Id @GeneratedValue(strategy = GenerationType.AUTO)
     private int userId;
   //  @Basic ->static final object for all column
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private String username;
     @Temporal(TemporalType.TIME)
     private Date joinedData;
