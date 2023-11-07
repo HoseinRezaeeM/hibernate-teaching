@@ -21,10 +21,15 @@ public class UserDetail {
     private String description;
     @Embedded
     @AttributeOverrides({
-    @AttributeOverride (name = "street", column=@Column(name = "HOME_STREET_NAME")),
-    @AttributeOverride (name = "city", column=@Column(name = "HOME_CITY_NAME")),
-    @AttributeOverride (name = "state", column=@Column(name = "HOME_STATE_NAME"))})
+            @AttributeOverride(name = "street", column = @Column(name = "HOME_STREET_NAME")),
+            @AttributeOverride(name = "city", column = @Column(name = "HOME_CITY_NAME")),
+            @AttributeOverride(name = "state", column = @Column(name = "HOME_STATE_NAME"))})
     private Address homeAddress;
+    @Embedded
+    @AttributeOverrides({
+            @AttributeOverride(name = "street", column = @Column(name = "OFFICE_STREET_NAME")),
+            @AttributeOverride(name = "city", column = @Column(name = "OFFICE_CITY_NAME")),
+            @AttributeOverride(name = "state", column = @Column(name = "OFFICE_STATE_NAME"))})
     private Address officeAddress;
 
     public Address getHomeAddress() {
