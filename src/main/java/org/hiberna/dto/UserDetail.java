@@ -2,6 +2,8 @@ package org.hiberna.dto;
 
 import javax.persistence.*;
 import java.util.Date;
+import java.util.HashSet;
+import java.util.Set;
 
 
 @Entity
@@ -31,6 +33,16 @@ public class UserDetail {
             @AttributeOverride(name = "city", column = @Column(name = "OFFICE_CITY_NAME")),
             @AttributeOverride(name = "state", column = @Column(name = "OFFICE_STATE_NAME"))})
     private Address officeAddress;
+    @ElementCollection
+    private Set<Address> listofAddress =new HashSet<>(); //one to Many  one user have many address
+
+    public Set<Address> getListofAddress() {
+        return listofAddress;
+    }
+
+    public void setListofAddress(Set<Address> listofAddress) {
+        this.listofAddress = listofAddress;
+    }
 
     public Address getHomeAddress() {
         return homeAddress;
