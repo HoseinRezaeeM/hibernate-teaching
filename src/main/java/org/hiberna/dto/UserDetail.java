@@ -1,6 +1,9 @@
 package org.hiberna.dto;
 
 import javax.persistence.*;
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Set;
 
 
 @Entity
@@ -9,17 +12,26 @@ public class UserDetail {
     @Id @GeneratedValue(strategy = GenerationType.AUTO)
     private int userId;
     private String username;
-    @OneToOne
+  //  @OneToOne
+    @OneToMany
     @JoinColumn(name="Vehicle_ID")
-    private Vehicle vehicle;
+    private Collection<Vehicle> vehicle =new ArrayList<>();
 
-    public Vehicle getVehicle() {
+    public Collection<Vehicle> getVehicle() {
         return vehicle;
     }
 
-    public void setVehicle(Vehicle vehicle) {
+    public void setVehicle(Collection<Vehicle> vehicle) {
         this.vehicle = vehicle;
     }
+
+    //    public Vehicle getVehicle() {
+//        return vehicle;
+//    }
+//
+//    public void setVehicle(Vehicle vehicle) {
+//        this.vehicle = vehicle;
+//    }
 
     public int getUserId() {
         return userId;
