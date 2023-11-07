@@ -14,7 +14,9 @@ public class UserDetail {
     private String username;
   //  @OneToOne
     @OneToMany
-    @JoinColumn(name="Vehicle_ID")
+    @JoinTable(name = "VEHICLE_USER",joinColumns = @JoinColumn(name = "USER_ID")
+    ,inverseJoinColumns = @JoinColumn(name = "VEHICLE_ID"))
+
     private Collection<Vehicle> vehicle =new ArrayList<>();
 
     public Collection<Vehicle> getVehicle() {
