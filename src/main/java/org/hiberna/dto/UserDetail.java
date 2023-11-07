@@ -20,14 +20,27 @@ public class UserDetail {
     //   @Lob -> big object
     private String description;
     @Embedded
-    private Address address;
+    @AttributeOverrides({
+    @AttributeOverride (name = "street", column=@Column(name = "HOME_STREET_NAME")),
+    @AttributeOverride (name = "city", column=@Column(name = "HOME_CITY_NAME")),
+    @AttributeOverride (name = "state", column=@Column(name = "HOME_STATE_NAME"))})
+    private Address homeAddress;
+    private Address officeAddress;
 
-    public Address getAddress() {
-        return address;
+    public Address getHomeAddress() {
+        return homeAddress;
     }
 
-    public void setAddress(Address address) {
-        this.address = address;
+    public void setHomeAddress(Address homeAddress) {
+        this.homeAddress = homeAddress;
+    }
+
+    public Address getOfficeAddress() {
+        return officeAddress;
+    }
+
+    public void setOfficeAddress(Address officeAddress) {
+        this.officeAddress = officeAddress;
     }
 
     public String getDescription() {
