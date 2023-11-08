@@ -1,5 +1,8 @@
 package org.config;
 
+import org.hiberna.dto.Student;
+import org.hiberna.dto.UserDetail;
+import org.hiberna.dto.Vehicle;
 import org.hibernate.SessionFactory;
 import org.hibernate.boot.MetadataSources;
 import org.hibernate.boot.registry.StandardServiceRegistry;
@@ -16,6 +19,9 @@ public class SessionFactoryProvider {
                 .configure()
                 .build();
         sessionFactory =new MetadataSources(standardServiceRegistry)
+                .addAnnotatedClass(Student.class)
+//                .addAnnotatedClass(Vehicle.class)//or add to cfg.xml
+//                .addAnnotatedClass(UserDetail.class)
                 .buildMetadata()
                 .buildSessionFactory();
     }

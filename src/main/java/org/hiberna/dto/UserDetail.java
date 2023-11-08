@@ -13,10 +13,10 @@ public class UserDetail {
     private int userId;
     private String username;
   //  @OneToOne
-    @OneToMany
+  //  @OneToMany
+    @ManyToMany(cascade = CascadeType.PERSIST)
     @JoinTable(name = "VEHICLE_USER",joinColumns = @JoinColumn(name = "USER_ID")
     ,inverseJoinColumns = @JoinColumn(name = "VEHICLE_ID"))
-
     private Collection<Vehicle> vehicle =new ArrayList<>();
 
     public Collection<Vehicle> getVehicle() {

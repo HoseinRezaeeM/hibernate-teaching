@@ -1,24 +1,35 @@
 package org.hiberna.dto;
 
 import javax.persistence.*;
+import java.util.ArrayList;
+import java.util.Collection;
 
 @Entity
 public class Vehicle {
 @Id @GeneratedValue
     private int VehicleId;
     private String VehicleName;
-    @ManyToOne
+   // @ManyToOne
+    @ManyToMany()
     @JoinTable(name = "USER_VEHICLE",joinColumns = @JoinColumn(name = "VEHICLE_ID")
             ,inverseJoinColumns = @JoinColumn(name = "USER_ID"))
-    private UserDetail userDetail;
+    private Collection<UserDetail> userDetail=new ArrayList<>();
 
-    public UserDetail getUserDetail() {
+    public Collection<UserDetail> getUserDetail() {
         return userDetail;
     }
 
-    public void setUserDetail(UserDetail userDetail) {
+    public void setUserDetail(Collection<UserDetail> userDetail) {
         this.userDetail = userDetail;
     }
+
+    //    public UserDetail getUserDetail() {
+//        return userDetail;
+//    }
+//
+//    public void setUserDetail(UserDetail userDetail) {
+//        this.userDetail = userDetail;
+//    }
 
     public int getVehicleId() {
         return VehicleId;

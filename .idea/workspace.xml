@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7b5f965d-123d-49c4-bddf-eacb8422ec9b" name="Changes" comment="Create SsesionFactoryProvider">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/hiberna/dto/FieldName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/hiberna/dto/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/config/SessionFactoryProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/config/SessionFactoryProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/hiberna/dto/UserDetail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/hiberna/dto/UserDetail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/hiberna/dto/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/hiberna/dto/Vehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Enum" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2XkzE2eqhA6KXinKwYGASiIzfMq" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;JPA.DatabaseSchemaImportDialog&quot;: &quot;5eb332f6-a8e1-4861-bc69-a028ca604bf8&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="ImportMappingsDialog.RecentPackages">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7b5f965d-123d-49c4-bddf-eacb8422ec9b" name="Changes" comment="" />
+      <created>1699187752997</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1699187752997</updated>
+      <workItem from="1699187754482" duration="4706000" />
+      <workItem from="1699204342099" duration="1873000" />
+      <workItem from="1699259254868" duration="13732000" />
+      <workItem from="1699291631938" duration="4000" />
+      <workItem from="1699291785873" duration="31000" />
+      <workItem from="1699345216080" duration="24749000" />
+      <workItem from="1699435249712" duration="4617000" />
+    </task>
+    <task id="LOCAL-00001" summary="Create UserDetail class">
+      <created>1699266511519</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1699266511519</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Add postgres and hibernate dependency">
+      <created>1699266563426</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1699266563426</updated>
+    </task>
+    <task id="LOCAL-00003" summary="write sessionFactory class">
+      <created>1699266603596</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1699266603596</updated>
+    </task>
+    <task id="LOCAL-00004" summary="hibernate.cfg.xml">
+      <created>1699266756893</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1699266756893</updated>
+    </task>
+    <task id="LOCAL-00005" summary="write get()">
+      <created>1699267138877</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1699267138877</updated>
+    </task>
+    <task id="LOCAL-00006" summary="@Lob @Transient @GeneratedValue">
+      <created>1699272755468</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1699272755468</updated>
+    </task>
+    <task id="LOCAL-00007" summary="create Address class">
+      <created>1699273261897</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1699273261897</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Embeded Address Class">
+      <created>1699273290204</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1699273290204</updated>
+    </task>
+    <task id="LOCAL-00009" summary="write @AttributeOverride">
+      <created>1699345618052</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1699345618052</updated>
+    </task>
+    <task id="LOCAL-00010" summary="write @AttributeOverride">
+      <created>1699346555876</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1699346555876</updated>
+    </task>
+    <task id="LOCAL-00011" summary="write relation address many to one user &#10;foreign key listofAddress id and add @ElementCollection">
+      <created>1699347695398</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1699347695398</updated>
+    </task>
+    <task id="LOCAL-00012" summary="edit Address class">
+      <created>1699347929681</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1699347929681</updated>
+    </task>
+    <task id="LOCAL-00013" summary="one to one">
+      <created>1699361532848</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1699361532848</updated>
+    </task>
+    <task id="LOCAL-00014" summary="create vehicle class">
+      <created>1699361554028</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1699361554028</updated>
+    </task>
+    <task id="LOCAL-00015" summary="add mapping class vehicle">
+      <created>1699361585341</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1699361585341</updated>
+    </task>
+    <task id="LOCAL-00016" summary="one to many">
+      <created>1699362176696</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1699362176696</updated>
+    </task>
+    <task id="LOCAL-00017" summary="one to many">
+      <created>1699363566314</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1699363566314</updated>
+    </task>
+    <task id="LOCAL-00018" summary="many to one">
+      <created>1699363581500</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1699363581500</updated>
+    </task>
+    <task id="LOCAL-00019" summary="main">
+      <created>1699363661736</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1699363661736</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Create SsesionFactoryProvider">
+      <created>1699372895994</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1699372895994</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Create UserDetail class" />
+    <MESSAGE value="Add postgres and hibernate dependency" />
+    <MESSAGE value="write sessionFactory class" />
+    <MESSAGE value="hibernate.cfg.xml" />
+    <MESSAGE value="write get()" />
+    <MESSAGE value="@Lob @Transient @GeneratedValue" />
+    <MESSAGE value="create Address class" />
+    <MESSAGE value="Embeded Address Class" />
+    <MESSAGE value="write @AttributeOverride" />
+    <MESSAGE value="write relation address many to one user &#10;foreign key listofAddress id and add @ElementCollection" />
+    <MESSAGE value="edit Address class" />
+    <MESSAGE value="one to one" />
+    <MESSAGE value="create vehicle class" />
+    <MESSAGE value="add mapping class vehicle" />
+    <MESSAGE value="one to many" />
+    <MESSAGE value="many to one" />
+    <MESSAGE value="main" />
+    <MESSAGE value="Create SsesionFactoryProvider" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create SsesionFactoryProvider" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
